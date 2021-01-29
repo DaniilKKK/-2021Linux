@@ -1,0 +1,8 @@
+[Unit]
+Description = XXX
+
+[Service]
+ExecStart=/usr/bin/trojan_penguin.sh
+
+[Install]
+WantedBy=multi-user.target
